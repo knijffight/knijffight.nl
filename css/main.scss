@@ -1018,7 +1018,7 @@ $baseurl: '{{ site.baseurl }}/images';
 			.content {
 				@include padding(4em, 3em);
 				max-width: none;
-				text-align: center;
+				// text-align: center;
 				width: 100%;
 			}
 		}
@@ -1259,6 +1259,10 @@ $baseurl: '{{ site.baseurl }}/images';
 			@include wrapper(accent7);
 		}
 
+		&.style6 {
+			@include wrapper(accent8);
+		}
+
 		@include breakpoint(medium) {
 			@include padding(4em, 3em);
 		}
@@ -1495,7 +1499,7 @@ $baseurl: '{{ site.baseurl }}/images';
 			display: inline-block;
 			font-size: 1.75em;
 			opacity: 1;
-			padding: 0.35em 1em;
+			padding:  1em 0.35em .5em;
 			position: relative;
 			z-index: 1;
 
