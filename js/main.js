@@ -98,3 +98,20 @@
 	});
 
 })(jQuery);
+
+function initMap() {
+	var home = {lat: 51.935402, lng: 4.350205};
+	var map = new google.maps.Map(document.getElementById('map-canvas'), {
+		zoom: 11,
+		center: home,
+		disableDefaultUI: true,
+		scrollwheel: false,
+		styles: [{
+			stylers: [{ saturation: -30 }]
+		}]
+	});
+	var marker = new google.maps.Marker({
+		position: home,
+		map: map
+	});
+}
