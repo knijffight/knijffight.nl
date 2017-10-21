@@ -1240,6 +1240,26 @@ $baseurl: '{{ site.baseurl }}/images';
 		}
 
 		&.style1 {
+			padding-top: 3em;
+			padding-bottom: 1em;
+			h2 {
+				margin-top: 1.2em;
+				padding-bottom: 0.7em;
+				margin-bottom: 0.7em;
+			}
+			h1 {
+				font-size: 1.6em;
+				font-weight: 600;
+				line-height: 1.4em;
+
+
+				span {
+					&.bigger {
+						font-size: 1.2em;
+					}
+					&.light { font-weight: 100; }
+				}
+			}
 			@include wrapper(accent1);
 		}
 
@@ -1726,6 +1746,19 @@ $baseurl: '{{ site.baseurl }}/images';
 	}
 
 	body.is-mobile {
+		.wrapper.style1 {
+			h1 {
+				font-size: 1.2em;
+
+				span {
+					&.bigger {
+						font-size: 1em;
+						line-height: 1em;
+					}
+				}
+			}
+		}
+
 		#main {
 			> header {
 				background-attachment: scroll;
