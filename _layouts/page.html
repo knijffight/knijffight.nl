@@ -3,7 +3,7 @@ layout: default
 ---
 <article id="main">
 
-  <header>
+  <header {% if page.bg_image %} style="background-image: url({{ page.bg_image }}); "{% endif %}>
     <h2>{{ page.title }}</h2>
   </header>
 
