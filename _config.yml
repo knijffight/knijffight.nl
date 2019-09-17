@@ -4,12 +4,12 @@
 # Site settings
 title: KNIJFFIGHT
 description: |
-  Training in self-defence
+  zelfverdediging - kracht - condititie
 owner: KNIJFFIGHT # or company name
 # first_published: 2016 # if migrating another site, the year of your first publish
-email: your-email@domain.com
+email: jef@knijffight.nl
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://knijffight.nl" # the base hostname & protocol for your site
 social:
   facebook-official: https://facebook.com/knijffight
   instagram: https://instagram.com/knijffight
