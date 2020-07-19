@@ -98,7 +98,7 @@
 })(jQuery);
 
 function initMap() {
-  var home = { lat: 51.9092098, lng: 4.3484847 };
+  var home = { lat: 51.9152303, lng: 4.4039229};
   var map = new google.maps.Map(document.getElementById("map-canvas"), {
     zoom: 11,
     center: home,
